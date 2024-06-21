@@ -1,0 +1,47 @@
+package d19stringbuilder_buffer_accessmodifier_static;
+
+import java.util.SplittableRandom;
+
+public class Student {
+    public static void main(String[] args) {
+
+        //Access Modifier - Erisim Belirleyici
+    /*
+    1)public
+    2)protected
+    3)default
+    4)private
+
+    public > protected > default > private
+
+    public      ==> public olanlar her class’dan kullanilabilir
+    protected   ==> protected olanlar baska package’lardan kullanilamaz,
+     ancak baska package’larda child classlar icinden kullanilabilir
+    default     ==> default olanlar baska package’lardan kullanilamazlar
+    private     ==> private olanlar sadece olusturulduklari class icinden kullanilabilirler
+
+    Soru: ”protected ile default" arasindaki farki söyleyiniz?
+    Cevap: protected olanlar baska package’lardan kullanilamaz ancak baska package’larda
+    child classlar icinden kullanilabilir. default olanlar baska package’lardan kullanilamazlar
+        */
+
+
+
+
+
+    }
+    public String stdName="ali can";
+    protected String adress="istanbul";
+
+    String email=  "alican@gmail.com";
+    private String tc="123456789";
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "stdName='" + stdName + '\'' +
+                ", adress='" + adress + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
+}
