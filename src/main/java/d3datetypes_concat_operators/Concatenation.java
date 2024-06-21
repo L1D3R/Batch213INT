@@ -2,7 +2,7 @@ package d3datetypes_concat_operators;
 
 public class Concatenation {
     public static void main(String[] args) {
-        String s="elma";
+        String s="portakal";
         int a=10;
         int b=11;
         System.out.println(s+a+b); //elma1011

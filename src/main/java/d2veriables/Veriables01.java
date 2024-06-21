@@ -12,7 +12,7 @@ public class Veriables01 {
              */
 
             String clas = "hello worl";
-            System.out.println(clas +"," +"hoşgeldiniz");
+            System.out.println(clas +"," +"hoşgeldinizzzz");
 
             int age= 25;
             System.out.println(age);
